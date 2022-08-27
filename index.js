@@ -11,7 +11,7 @@ const questions = [{
 }, {
     type: "input",
     message: "Please provide a description of your project",
-    name: "project-description",
+    name: "projectdescription",
 }, {
     type: "input",
     message: "How do you install the application?",
@@ -27,20 +27,20 @@ const questions = [{
 }, {
     type: "input",
     message: "test instrucions?",
-    name: "test-instructions"
-}, {}, {
+    name: "testinstructions"
+}, {
     type: "input",
     message: "What is your github username",
-    name: "git-user"
-}, {}, {
+    name: "gituser"
+}, {
     type: "input",
     message: "What is your email?",
-    name: "test-instructions"
+    name: "email"
 }, {
     type: "list",
     message: "Please choose a license for this project",
     choices: ["Apache License 2.0", "GNU GPLv3", "MIT", ],
-    name: "license-selection"
+    name: "licenseselection"
 }];
 
 //TODO: Create a function to write README file
@@ -53,8 +53,8 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer
         .prompt(questions)
-        .then((response) => {
-            fs.writeFile("README.md", generateMarkdown(response));
+        .then((data) => {
+            fs.writeFileSync("README.md", generateMarkdown(data));
         })
         .catch((err) => {
             if (err) throw err;
