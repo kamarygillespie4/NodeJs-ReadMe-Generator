@@ -1,10 +1,11 @@
-# g
-        [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# README Generator
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-        ## Description
-g
 
-  ## Table of Contents
+## Description
+This application can be used to develop a professional README.
+
+## Table of Contents
   1. [Installation Instructions](#installation)
   2. [Usage Information](#usage)
   3. [Contribution Guidelines](#contribution)
@@ -12,16 +13,16 @@ g
   5. [License information](#Licensing)
   6. [Questions](#questions)
   ## Installation
-  g
+  This application requires no installation.
   ## Usage
-  gg
+  This application uses Node to prompt the user with a series of questions that will help generate a README for the given application
   ## Contribution
-  g
+  There were no other contributions to this application.
   ## Testing
-  g
+  This application has no testing.
   ## Licensing
-  **[Apache 2.0](https://opensource.org/licenses/Apache-2.0)**
+  [Apache 2.0](https://opensource.org/licenses/Apache-2.0)
   ## Questions
   If you have any further questions, 
-   - You can email me at: gg
-   - You can find my GitHub at: [g](https://github.com/g)
+   - You can email me at: kami.gillespie@gmail.com
+   - You can find my GitHub at: [kamarygillespie4](https://github.com/kamarygillespie4)
