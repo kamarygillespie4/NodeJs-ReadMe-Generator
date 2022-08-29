@@ -6,11 +6,11 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
     type: "input",
-    message: "What is the title of your project?",
+    message: "What is the title of your application?",
     name: "title",
 }, {
     type: "input",
-    message: "Please provide a description of your project",
+    message: "Please provide a description of your application",
     name: "projectdescription",
 }, {
     type: "input",
@@ -22,11 +22,11 @@ const questions = [{
     name: "usage",
 }, {
     type: "input",
-    message: "Contribution credit?",
+    message: "Outline the contributions for this application",
     name: "contribution",
 }, {
     type: "input",
-    message: "test instrucions?",
+    message: "What are the testing instructions for this application?",
     name: "testinstructions"
 }, {
     type: "input",
@@ -39,8 +39,8 @@ const questions = [{
 }, {
     type: "list",
     message: "Please choose a license for this project",
-    choices: ["Apache License 2.0", "GNU GPLv3", "MIT", ],
-    name: "licenseselection"
+    choices: ["Apache 2.0", "GNU GPLv3"],
+    name: "license"
 }];
 
 //TODO: Create a function to write README file
